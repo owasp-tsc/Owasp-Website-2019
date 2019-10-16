@@ -391,7 +391,7 @@ Hero section
 }
 
 .hs-item h2 {
-	font-size: 48px;
+	font-size: 70px;
 	font-weight: 400;
 	color: #fff;
 	top: 50px;
@@ -402,8 +402,8 @@ Hero section
 .hero-slider .owl-item.active .hs-item h2 {
 	top: 0;
 	opacity: 1;
-	-webkit-transition: all 0.5s ease 0.2s;
-	transition: all 0.5s ease 0.2s;
+	-webkit-transition: all 0s ease 0s;
+	transition: all 0s ease 0s;
 }
 
 .hero-slider .owl-nav {
