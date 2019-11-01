@@ -1,4 +1,4 @@
-
+console.log($(document).height() , $(document).width())
 if($(document).height() > $(document).width())
 {   
     $('.harkirat').click(()=>{

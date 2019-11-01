@@ -512,12 +512,3 @@ Responsive
 		padding-bottom: 400px;
 	}
 }
-
-@media only screen and (orientation : portrait)
-{
-	.owaspO{
-		position: relative;
-		top:40px;
-	}
-}
-

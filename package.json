@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/owasp-tsc/Owasp-Website-2019#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "particle.js": "^1.0.7",
+    "particles.js": "^2.0.0"
   }
 }

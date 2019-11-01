@@ -1,0 +1,50 @@
+
+canvas{
+  display:block;
+  vertical-align:bottom;
+}
+
+
+/* ---- particles.js container ---- */
+.site-logo{
+    filter:invert(100%)
+}
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-color : black;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (orientation: portrait) {
+    .hometext {
+      font-size: 40px !important;
+      position: absolute !important;
+        left:10% !important;
+        filter:invert(100%)
+    }
+    .OWASP{
+        font-size:120px !important;
+        position: absolute !important;
+        left:10% !important;
+        top:35% !important;
+        filter:invert(100%)
+        
+    }
+  }
+  .OWASP{
+    filter:invert(100%)
+  }
+  .hometext{ filter:invert(100%)}
+  .OWASP:hover{
+      font-size: 230px !important;
+      transition : 1s;
+      left:28.5% !important;
+      top:22% !important;
+  }
+  .filtered{
+      filter:invert(100%)
+  }

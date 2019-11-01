@@ -33,7 +33,7 @@
     <link rel="stylesheet" href="css/jquery.timepicker.css">
 
 	<link rel="stylesheet" href="css/style.css">
-
+	<link rel="stylesheet" href="css/particle.css">
 </head>
 <body>
   
@@ -63,58 +63,26 @@
 	</header>
 	 <!-- Header section end -->
 	
+
+
+	
+
 	<!-- Hero section -->
 	<section class="hero-section" style="background-color:darkgrey; height: 100%;">
 		<div class="hero-social-warp">
 		<div class="hero-social">
-		<a href=""><i class="fa fa-facebook"></i></a>
+		<a href=""><i class="fa fa-facebook filtered"></i></a>
 
-		<a href=""><i class="fa fa-instagram"></i></a>
+		<a href=""><i class="fa fa-instagram filtered"></i></a>
 		</div>
 		</div>
-		<div class="hero-slider owl-carousel owl-theme owl-loaded owl-drag">
 		
 		
+		<div style="font-size: 200px;position:absolute; left :30%;top:25%;" class="OWASP">OWASP</div>
+		<div style="font-size: 50px;position:absolute; left :30%;top:60%;" class="hometext">Open Web Application Security Project</div>
+	 <div id="particles-js"></div>
 		
-		<div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-3810px, 0px, 0px); transition: all 0s ease 0s; width: 13335px;"><div class="owl-item cloned" style="width: 1905px;"><div class="hs-item set-bg" data-setbg="img/slider/2.jpg" style="background-color:black;">
 		
-	
-	
-		</div></div><div class="owl-item animated owl-animated-in fadeIn active" style="width: 1905px;"><div class="hs-item set-bg" data-setbg="img/slider/1.jpg" style="background-image: url(&quot;img/slider/1.jpg&quot;);">
-		
-		</div></div><div class="owl-item" style="width: 1905px;"><div class="hs-item set-bg" data-setbg="img/slider/2.jpg" style="background-image: url(&quot;img/slider/2.jpg&quot;);">
-		<div class="container">
-		<div class="row">
-		<div class="col-xl-6 col-lg-7">
-		<h2>4 Modern homes for modern thinking people. </h2>
-		</div>
-		</div>
-		</div>
-		</div></div><div class="owl-item animated owl-animated-in fadeIn" style="width: 1905px;"><div class="hs-item set-bg" data-setbg="img/slider/3.jpg" style="background-image: url(&quot;img/slider/3.jpg&quot;);">
-		<div class="container">
-		<div class="row">
-		<div class="col-xl-6 col-lg-7">
-		<h2>6 Modern homes for modern thinking people. </h2>
-		</div>
-		</div>
-		</div>
-		</div></div><div class="owl-item cloned" style="width: 1905px;"><div class="hs-item set-bg" data-setbg="img/slider/1.jpg" style="background-image: url(&quot;img/slider/1.jpg&quot;);">
-		<div class="container">
-		<div class="row">
-		<div class="col-xl-6 col-lg-7">
-		<h2>3 Modern homes for modern thinking people. </h2>
-		</div>
-		</div>
-		</div>
-		</div></div><div class="owl-item cloned" style="width: 1905px;"><div class="hs-item set-bg" data-setbg="img/slider/2.jpg" style="background-image: url(&quot;img/slider/2.jpg&quot;);">
-		<div class="container">
-		<div class="row">
-		<div class="col-xl-6 col-lg-7">
-		<h2>4 Modern homes for modern thinking people. </h2>
-		</div>
-		</div>
-		</div>
-
 		</section>
 
 
@@ -348,13 +316,6 @@
 			</section>
 
 
-
-
-
-
-
-
-
 	
 	<section class="features-section">
 		<div class="container">
@@ -464,6 +425,23 @@
 		</footer>
 
 	<!--====== Javascripts & Jquery ======-->
+	<script src="js/particles.js"></script>
+	<script src="js/app.js"></script>
+
+<script>
+  var count_particles, update;
+
+  count_particles = document.querySelector('.js-count-particles');
+  update = function() {
+    stats.begin();
+    stats.end();
+    if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+      count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+    }
+    requestAnimationFrame(update);
+  };
+  requestAnimationFrame(update);
+</script>
 	<script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/jquery.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
@@ -490,7 +468,8 @@
     <script src="js/custom.js"></script>
     <script src="js/blog.js"></script>
     <script src="js/timer.js"></script>
-  
+
+
 	</body>
 </html>
   
