@@ -40,9 +40,9 @@ canvas{
   }
   .hometext{ filter:invert(100%)}
   .OWASP:hover{
-      font-size: 230px !important;
+      font-size: 180px !important;
       transition : 1s;
-      left:28.5% !important;
+      left:27% !important;
       top:22% !important;
   }
   .filtered{
