@@ -1,5 +1,5 @@
 console.log($(document).height() , $(document).width())
-if($(document).height() > $(document).width())
+if(window.innerHeight < window.innerWidth)
 {   
     $('.harkirat').click(()=>{
         $('.harkirat').css("display", "none");
