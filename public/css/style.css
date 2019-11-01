@@ -515,3 +515,10 @@ Responsive
 		padding-bottom: 400px;
 	}
 }
+
+@media (orientation: portrait)
+{
+	.OWASP{
+		font-size : 30px !important;
+	}
+}

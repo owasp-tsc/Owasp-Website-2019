@@ -27,12 +27,15 @@ canvas{
         filter:invert(100%)
     }
     .OWASP{
-        font-size:120px !important;
+        font-size:70px !important ;
         position: absolute !important;
         left:10% !important;
         top:35% !important;
         filter:invert(100%)
-        
+      
+    }
+    .owaspO{
+      top:20px !important;
     }
   }
   .OWASP{
