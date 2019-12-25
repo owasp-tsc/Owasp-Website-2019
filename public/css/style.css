@@ -461,15 +461,15 @@ Responsive
 
 @media only screen and (max-width: 767px) {
 	.nav-switch {
-		right: 30px;
+		
 		display: block;
 		float: right;
 		font-size: 32px;
 		cursor: pointer;
 		color: #fff;
-		margin-right: 40px;
-		line-height: 32px;
+
 	}
+	
 	.main-menu {
 		float: none;
 		padding-top: 0;
@@ -514,6 +514,20 @@ Responsive
 	.hs-item .container {
 		padding-bottom: 400px;
 	}
+}
+ 
+@media (max-width: 350px){
+	.nav-switch {
+		
+		display: block;
+		float: right;
+		font-size: 32px;
+		cursor: pointer;
+		color: #fff;
+		margin-right: -10%;
+		margin-top: -40%;
+				
+	}}
 }
 
 @media (orientation: portrait)
